@@ -98,5 +98,9 @@ Here's a suggested organization of the references into sections based on the pap
 - B. Kim et al., "The Breakthrough Memory Solutions for Improved Performance on LLM Inference," IEEE Micro, 2024.
 - J. Kim et al., "Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond," IEEE Hot Chips, 2021.
 
+# Tutorial:
+* MIT: [TinyML and Efficient Deep Learning Computing](https://efficientml.ai)
+* Harvard: [Machine Learning Systems](https://mlsysbook.ai/)
+
 # Citation
 If you find this survey helpful, please consider citing our paper:
