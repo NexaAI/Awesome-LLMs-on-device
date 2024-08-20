@@ -65,12 +65,19 @@ Here's a suggested organization of the references into sections based on the pap
 - Matrix compression via randomized low rank and low precision factorization <br> NeurIPS 2023 [[Paper]](https://arxiv.org/abs/2310.11028) [[Github]](https://github.com/pilancilab/matrix-compressor)
 
 ### The Performance Indicator of On-Device LLMs
-- MNN: A lightweight deep neural network inference engine <br> 2024 [[github]](https://github.com/alibaba/MNN)
+- MNN: A lightweight deep neural network inference engine <br> 2024 [[Github]](https://github.com/alibaba/MNN)
 - PowerInfer-2: Fast Large Language Model Inference on a Smartphone <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2406.06282) [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
-- llama.cpp: Lightweight library for Approximate Nearest Neighbors and Maximum Inner Product Search <br> 2023 [[github]](https://github.com/ggerganov/llama.cpp)
+- llama.cpp: Lightweight library for Approximate Nearest Neighbors and Maximum Inner Product Search <br> 2023 [[Github]](https://github.com/ggerganov/llama.cpp)
 - Powerinfer: Fast large language model serving with a consumer-grade gpu <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2312.12456) [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
 
 ## Efficient Architectures for On-Device LLMs
+
+### Comparison of On-Device LLM Architectures
+The following table provides a comparative analysis of state-of-the-art on-device LLM architectures, focusing on their performance, computational efficiency, and memory requirements.
+
+<div style="text-align: center;">
+    <img src="./resources/Architectures.png" alt="Comparative Analysis of State-of-the-Art On-Device LLM Architectures" width="75%">
+</div>
 
 ### Model Compression and Parameter Sharing
 - AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2306.00978) [[Github]](https://github.com/mit-han-lab/llm-awq)
