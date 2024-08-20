@@ -1,9 +1,9 @@
 # Awesome LLMs on Device: A Comprehensive Survey
 
-<figure align="center">
+<div style="text-align: center;">
   <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
-  <figcaption style="font-size: 10px;">Summary of On-device LLMs’ Evolution</figcaption>
-</figure>
+  <div style="font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
+</div>
 
 This repository contains resources and information related to our comprehensive survey paper on Large Language Models (LLMs) deployed on edge devices.
 
@@ -43,6 +43,7 @@ Here's a suggested organization of the references into sections based on the pap
 - [Hardware Acceleration and Deployment Strategies](#hardware-acceleration-and-deployment-strategies)
   - [Popular On-Device LLMs Framework](#popular-on-device-llms-framework)
   - [Hardware Acceleration](#hardware-acceleration)
+- [Model Reference](#model-reference)
 - [Tutorial](#tutorial)
 - [Citation](#citation)
 
@@ -50,26 +51,12 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### Evolution of On-Device LLMs
 
-- T. Zhang et al., "Tinyllama: An open-source small language model," arXiv preprint arXiv:2401.02385, 2024.
-- X. Chu et al., "MobileVLM V2: Faster and Stronger Baseline for Vision Language Model," arXiv preprint arXiv:2402.03766, 2024.
-- R. Murthy et al., "MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases," arXiv preprint arXiv:2406.10290, 2024.
-- W. Chen et al., Octopus series papers (v1-v4)
-- J. Lin et al., "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration," arXiv preprint arXiv:2306.00978, 2024.
-- S. Ma et al., "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits," arXiv preprint arXiv:2402.17764, 2024.
 - Tinyllama: An open-source small language model <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2401.02385) [[Github]](https://github.com/jzhang38/TinyLlama)
 - MobileVLM V2: Faster and Stronger Baseline for Vision Language Model <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2402.03766) [[Github]](https://github.com/Meituan-AutoML/MobileVLM)
 - MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2406.10290)
 - Octopus series papers <br> arXiv 2024 [[Octopus]](https://arxiv.org/abs/2404.01549) [[Octopus v2]](https://arxiv.org/abs/2404.01744) [[Octopus v3]](https://arxiv.org/abs/2404.11459) [[Octopus v4]](https://arxiv.org/abs/2404.19296) [[Github]](https://github.com/NexaAI)
 - The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2402.17764)
 - AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2306.00978) [[Github]](https://github.com/mit-han-lab/llm-awq)
-
-### LLM Architecture Foundations
-
-- E. Frantar et al., "Gptq: Accurate post-training quantization for generative pre-trained transformers," arXiv preprint arXiv:2210.17323, 2022.
-- T. Dettmers and L. Zettlemoyer, "The case for 4-bit precision: k-bit inference scaling laws," ICML, 2023.
-- T. Dettmers et al., "Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale," NeurIPS, 2022.
-- J. Kaddour et al., "Challenges and applications of large language models," arXiv preprint arXiv:2307.10169, 2023.
-- Y. Gu et al., "MiniLLM: Knowledge distillation of large language models," ICLR, 2023.
 
 ### LLM Architecture Foundations
 
@@ -81,15 +68,10 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### On-Device LLMs Training
 
-- S. Mehta et al., "OpenELM: An Efficient Language Model Family with Open Training and Inference Framework," arXiv preprint arXiv:2404.14619, 2024.
 - OpenELM: An Efficient Language Model Family with Open Training and Inference Framework <br> ICML 2024 [[Paper]](https://arxiv.org/abs/2404.14619) [[Github]](https://github.com/apple/corenet)
 
 ### Limitations of Cloud-Based LLM Inference and Advantages of On-Device Inference
 
-- H. Zhang et al., "Ferret-v2: An Improved Baseline for Referring and Grounding with Large Language Models," arXiv preprint arXiv:2404.07973, 2024.
-- M. Abdin et al., "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone," 2024.
-- C. Saha et al., "Matrix compression via randomized low rank and low precision factorization," NeurIPS, 2023.
-- Z. Yao et al., "Exploring post-training quantization in llms from comprehensive study to low rank compensation," AAAI, 2024.
 - Ferret-v2: An Improved Baseline for Referring and Grounding with Large Language Models <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2404.07973)
 - Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2404.14219)
 - Exploring post-training quantization in llms from comprehensive study to low rank compensation <br> AAAI 2024 [[Paper]](https://arxiv.org/abs/2303.08302)
@@ -97,51 +79,44 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### The Performance Indicator of On-Device LLMs
 
-- G. Gerganov, "llama.cpp: Lightweight library for Approximate Nearest Neighbors and Maximum Inner Product Search," GitHub, 2023.
-- Alibaba, "MNN: A lightweight deep neural network inference engine," GitHub, 2024.
-- Y. Song et al., "Powerinfer: Fast large language model serving with a consumer-grade gpu," arXiv preprint arXiv:2312.12456, 2023.
-- Z. Xue et al., "PowerInfer-2: Fast Large Language Model Inference on a Smartphone," arXiv preprint arXiv:2406.06282, 2024.
-- MNN: A lightweight deep neural network inference engine <br> 2024 [[github]](https://github.com/alibaba/MNN)
+- MNN: A lightweight deep neural network inference engine <br> 2024 [[Github]](https://github.com/alibaba/MNN)
 - PowerInfer-2: Fast Large Language Model Inference on a Smartphone <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2406.06282) [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
-- llama.cpp: Lightweight library for Approximate Nearest Neighbors and Maximum Inner Product Search <br> 2023 [[github]](https://github.com/ggerganov/llama.cpp)
+- llama.cpp: Lightweight library for Approximate Nearest Neighbors and Maximum Inner Product Search <br> 2023 [[Github]](https://github.com/ggerganov/llama.cpp)
 - Powerinfer: Fast large language model serving with a consumer-grade gpu <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2312.12456) [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
 
 ## Efficient Architectures for On-Device LLMs
 
+### Comparison of On-Device LLM Architectures
+
+The following table provides a comparative analysis of state-of-the-art on-device LLM architectures, focusing on their performance, computational efficiency, and memory requirements.
+
+<div style="text-align: center;">
+    <img src="./resources/Architectures.png" alt="Comparative Analysis of State-of-the-Art On-Device LLM Architectures" width="75%">
+</div>
+
 ### Model Compression and Parameter Sharing
 
-- J. Lin et al., "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration," arXiv preprint arXiv:2306.00978, 2024.
-- C. Liu et al., "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases," arXiv preprint arXiv:2402.14905, 2024.
 - AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2306.00978) [[Github]](https://github.com/mit-han-lab/llm-awq)
 - MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2402.14905) [[Github]](https://github.com/facebookresearch/MobileLLM)
 
 ### Collaborative and Hierarchical Model Approaches
 
-- M. Zhang et al., "EdgeShard: Efficient LLM Inference via Collaborative Edge Computing," arXiv preprint arXiv:2405.14371, 2024.
-- D. Xu et al., "Llmcad: Fast and scalable on-device large language model inference," arXiv preprint arXiv:2309.04255, 2023.
 - EdgeShard: Efficient LLM Inference via Collaborative Edge Computing <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2405.14371)
 - Llmcad: Fast and scalable on-device large language model inference <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2309.04255)
 
 ### Memory and Computational Efficiency
 
-- B. Kim et al., "The Breakthrough Memory Solutions for Improved Performance on LLM Inference," IEEE Micro, 2024.
-- S. Laskaridis et al., "MELTing point: Mobile Evaluation of Language Transformers," arXiv preprint arXiv:2403.12844, 2024.
 - The Breakthrough Memory Solutions for Improved Performance on LLM Inference <br> IEEE Micro 2024 [[Paper]](https://ieeexplore.ieee.org/document/10477465)
 - MELTing point: Mobile Evaluation of Language Transformers <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2403.12844) [[Github]](https://github.com/brave-experiments/MELT-public)
 
 ### Mixture-of-Experts (MoE) Architectures
 
-- R. Yi et al., "Edgemoe: Fast on-device inference of moe-based large language models," arXiv preprint arXiv:2308.14352, 2023.
-- W. Yin et al., "LLM as a system service on mobile devices," arXiv preprint arXiv:2403.11805, 2024.
-- J. Li et al., "Locmoe: A low-overhead moe for large language model training," arXiv preprint arXiv:2401.13920, 2024.
 - LLM as a system service on mobile devices <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2403.11805)
 - Locmoe: A low-overhead moe for large language model training <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2401.13920)
 - Edgemoe: Fast on-device inference of moe-based large language models <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2308.14352)
 
 ### General Efficiency and Performance Improvements
 
-- Y. Park et al., "Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs," arXiv preprint arXiv:2402.10517, 2024.
-- Z. Yan et al., "On the viability of using llms for sw/hw co-design: An example in designing cim dnn accelerators," IEEE SOCC, 2023.
 - Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs <br> arXiv 2024 [[Paper]](https://www.arxiv.org/pdf/2402.10517) [[Github]](https://github.com/SNU-ARC/any-precision-llm)
 - On the viability of using llms for sw/hw co-design: An example in designing cim dnn accelerators <br>IEEE SOCC 2023 [[Paper]](https://arxiv.org/abs/2306.06923)
 
@@ -149,10 +124,6 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### Quantization
 
-- E. Frantar et al., "Gptq: Accurate post-training quantization for generative pre-trained transformers," arXiv preprint arXiv:2210.17323, 2022.
-- J. Lin et al., "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration," arXiv preprint arXiv:2306.00978, 2024.
-- T. Dettmers et al., "Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale," NeurIPS, 2022.
-- S. Ma et al., "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits," arXiv preprint arXiv:2402.17764, 2024.
 - The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2402.17764)
 - AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2306.00978) [[Github]](https://github.com/mit-han-lab/llm-awq)
 - Gptq: Accurate post-training quantization for generative pre-trained transformers <br> ICLR 2023 [[Paper]](https://arxiv.org/abs/2210.17323) [[Github]](https://github.com/IST-DASLab/gptq)
@@ -160,18 +131,14 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### Pruning
 
-- J. Kaddour et al., "Challenges and applications of large language models," arXiv preprint arXiv:2307.10169, 2023.
 - Challenges and applications of large language models <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2307.10169)
 
 ### Knowledge Distillation
 
-- Y. Gu et al., "MiniLLM: Knowledge distillation of large language models," ICLR, 2023.
 - MiniLLM: Knowledge distillation of large language models <br> ICLR 2024 [[Paper]](https://arxiv.org/abs/2306.08543)
 
 ### Low-Rank Factorization
 
-- R. Saha et al., "Matrix compression via randomized low rank and low precision factorization," NeurIPS, 2023.
-- Z. Yao et al., "Exploring post-training quantization in llms from comprehensive study to low rank compensation," AAAI, 2024.
 - Exploring post-training quantization in llms from comprehensive study to low rank compensation <br> AAAI 2024 [[Paper]](https://arxiv.org/abs/2303.08302)
 - Matrix compression via randomized low rank and low precision factorization <br> NeurIPS 2023 [[Paper]](https://arxiv.org/abs/2310.11028) [[Github]](https://github.com/pilancilab/matrix-compressor)
 
@@ -179,7 +146,6 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### Popular On-Device LLMs Framework
 
-- Various frameworks (llama.cpp, MNN, PowerInfer, ExecuTorch, MediaPipe, MLC-LLM, VLLM, OpenLLM)
 - llama.cpp: A lightweight library for efficient LLM inference on various hardware with minimal setup. [[Github]](https://github.com/ggerganov/llama.cpp)
 - MNN: A blazing fast, lightweight deep learning framework. [[Github]](https://github.com/alibaba/MNN)
 - PowerInfer: A CPU/GPU LLM inference engine leveraging activation locality for device. [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
@@ -191,9 +157,20 @@ Here's a suggested organization of the references into sections based on the pap
 
 ### Hardware Acceleration
 
-- J. Kim et al., "Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond," IEEE Hot Chips, 2021.
-- B. Kim et al., "The Breakthrough Memory Solutions for Improved Performance on LLM Inference," IEEE Micro, 2024.
-- J. Kim et al., "Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond," IEEE Hot Chips, 2021.
+- The Breakthrough Memory Solutions for Improved Performance on LLM Inference <br> IEEE Micro 2024 [[Paper]](https://ieeexplore.ieee.org/document/10477465)
+- Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond <br> IEEE Hot Chips 2021 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9567191)
+
+# Model Reference
+
+|         Model         |      Institute      | Paper                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| :-------------------: | :-----------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      Gemini Nano      |       Google        | [Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/pdf/2312.11805.pdf)                                                                                                                                                                                                                                                                                                                          |
+| Octopus series model  |       Nexa AI       | [Octopus v2: On-device language model for super agent](https://arxiv.org/pdf/2404.01744.pdf)<br>[Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/pdf/2404.11459.pdf)<br>[Octopus v4: Graph of language models](https://arxiv.org/pdf/2404.19296.pdf)<br>[Octopus: On-device language model for function calling of software APIs](https://arxiv.org/pdf/2404.01549.pdf) |
+| OpenELM and Ferret-v2 |        Apple        | OpenELM is a significant large language model integrated within iOS to enhance application functionalities. <br>Ferret-v2 significantly improves upon its predecessor, introducing enhanced visual processing capabilities and an advanced training regimen.                                                                                                                                                          |
+|      Phi series       |      Microsoft      | [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/pdf/2404.14219.pdf)                                                                                                                                                                                                                                                                                                 |
+|        MiniCPM        | Tsinghua University | [A GPT-4V Level Multimodal LLM on Your Phone](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5)                                                                                                                                                                                                                                                                                                                    |
+|       Gemma2-9B       |       Google        | [Gemma 2: Improving Open Language Models at a Practical Size](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)                                                                                                                                                                                                                                                                                 |
+|      Qwen2-0.5B       |    Alibaba Group    | [Qwen Technical Report](https://arxiv.org/pdf/2309.16609.pdf)                                                                                                                                                                                                                                                                                                                                                         |
 
 # Tutorial:
 
