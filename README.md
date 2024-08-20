@@ -1,8 +1,8 @@
 # Awesome LLMs on Device: A Comprehensive Survey
 
 <div style="text-align: center;">
-  <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
-  <div style="font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
+  <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="1000">
+  <div style="text-align: center; font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
 </div>
 
 This repository contains resources and information related to our comprehensive survey paper on Large Language Models (LLMs) deployed on edge devices.
@@ -30,6 +30,7 @@ Here's a suggested organization of the references into sections based on the pap
   - [Limitations of Cloud-Based LLM Inference and Advantages of On-Device Inference](#limitations-of-cloud-based-llm-inference-and-advantages-of-on-device-inference)
   - [The Performance Indicator of On-Device LLMs](#the-performance-indicator-of-on-device-llms)
 - [Efficient Architectures for On-Device LLMs](#efficient-architectures-for-on-device-llms)
+  - [Comparison of On-Device LLM Architectures](#comparison-of-on-device-llm-architectures)
   - [Model Compression and Parameter Sharing](#model-compression-and-parameter-sharing)
   - [Collaborative and Hierarchical Model Approaches](#collaborative-and-hierarchical-model-approaches)
   - [Memory and Computational Efficiency](#memory-and-computational-efficiency)
