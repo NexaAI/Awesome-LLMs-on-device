@@ -20,7 +20,7 @@ Here's a suggested organization of the references into sections based on the pap
   - [LLM Architecture Foundations](#llm-architecture-foundations)
   - [On-Device LLMs Training](#on-device-llms-training)
   - [Limitations of Cloud-Based LLM Inference and Advantages of On-Device Inference](#limitations-of-cloud-based-llm-inference-and-advantages-of-on-device-inference)
-  - [Efficient Prompting](#efficient-prompting)
+  - [The Performance Indicator of On-Device LLMs](#the-performance-indicator-of-on-device-llms)
 - [Efficient Architectures for On-Device LLMs](#efficient-architectures-for-on-device-llms)
   - [Model Compression and Parameter Sharing](#model-compression-and-parameter-sharing)
   - [Collaborative and Hierarchical Model Approaches](#collaborative-and-hierarchical-model-approaches)
@@ -41,7 +41,8 @@ Here's a suggested organization of the references into sections based on the pap
 ## Foundations and Preliminaries
 
 ### Evolution of On-Device LLMs
-- T. Zhang et al., "Tinyllama: An open-source small language model," arXiv preprint arXiv:2401.02385, 2024.
+- Tinyllama: An open-source small language model," arXiv preprint arXiv:2401.02385, 2024.
+- Tinyllama: An open-source small language model <br> arXiv 2024 [[Paper]]() [[Code]]()
 - X. Chu et al., "MobileVLM V2: Faster and Stronger Baseline for Vision Language Model," arXiv preprint arXiv:2402.03766, 2024.
 - R. Murthy et al., "MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases," arXiv preprint arXiv:2406.10290, 2024.
 - W. Chen et al., Octopus series papers (v1-v4)
