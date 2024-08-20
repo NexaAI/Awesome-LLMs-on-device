@@ -1,8 +1,8 @@
 # Awesome LLMs on Device: A Comprehensive Survey
 
 <figure align="center">
-  <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="500">
-  <figcaption>Summary of On-device LLMs’ Evolution</figcaption>
+  <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
+  <figcaption style="font-size: 10px;">Summary of On-device LLMs’ Evolution</figcaption>
 </figure>
 
 This repository contains resources and information related to our comprehensive survey paper on Large Language Models (LLMs) deployed on edge devices.
