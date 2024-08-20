@@ -15,6 +15,29 @@ The advent of large language models (LLMs) has revolutionized natural language p
 # Table of Contents
 Here's a suggested organization of the references into sections based on the paper architecture:
 
+- [Foundations and Preliminaries](#foundations-and-preliminaries)
+  - [Evolution of On-Device LLMs](#evolution-of-on-device-llms)
+  - [LLM Architecture Foundations](#llm-architecture-foundations)
+  - [On-Device LLMs Training](#on-device-llms-training)
+  - [Limitations of Cloud-Based LLM Inference and Advantages of On-Device Inference](#limitations-of-cloud-based-llm-inference-and-advantages-of-on-device-inference)
+  - [Efficient Prompting](#efficient-prompting)
+- [Efficient Architectures for On-Device LLMs](#efficient-architectures-for-on-device-llms)
+  - [Model Compression and Parameter Sharing](#model-compression-and-parameter-sharing)
+  - [Collaborative and Hierarchical Model Approaches](#collaborative-and-hierarchical-model-approaches)
+  - [Memory and Computational Efficiency](#memory-and-computational-efficiency)
+  - [Mixture-of-Experts (MoE) Architectures](#mixture-of-experts-moe-architectures)
+  - [General Efficiency and Performance Improvements](#general-efficiency-and-performance-improvements)
+- [Model Compression and Optimization Techniques for On-Device LLMs](#model-compression-and-optimization-techniques-for-on-device-llms)
+  - [Quantization](#quantization)
+  - [Pruning](#pruning)
+  - [Knowledge Distillation](#knowledge-distillation)
+  - [Low-Rank Factorization](#low-rank-factorization)
+- [Hardware Acceleration and Deployment Strategies](#hardware-acceleration-and-deployment-strategies)
+  - [Popular On-Device LLMs Framework](#popular-on-device-llms-framework)
+  - [Hardware Acceleration](#hardware-acceleration)
+- [Tutorial](#tutorial)
+- [Citation](#citation)
+
 ## Foundations and Preliminaries
 
 ### Evolution of On-Device LLMs
