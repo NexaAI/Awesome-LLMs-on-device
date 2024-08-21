@@ -1,6 +1,10 @@
 # Awesome LLMs on Device: A Comprehensive Survey
 
-<<<<<<< HEAD
+<div style="text-align: center;">
+  <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
+  <div style="font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
+</div>
+
 
 # Contents
 - [Awesome LLMs on Device: A Comprehensive Survey](#awesome-llms-on-device-a-comprehensive-survey)
@@ -26,53 +30,6 @@
     - [Popular On-Device LLMs Framework](#popular-on-device-llms-framework)
     - [Hardware Acceleration](#hardware-acceleration)
 - [Tutorial:](#tutorial)
-=======
-<div style="text-align: center;">
-  <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
-  <div style="font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
-</div>
-
-This repository contains resources and information related to our comprehensive survey paper on Large Language Models (LLMs) deployed on edge devices.
-
-# Abstract
-
-The advent of large language models (LLMs) has revolutionized natural language processing applications, and running LLMs on edge devices has become increasingly attractive for reasons including reduced latency, data localization, and personalized user experiences. This comprehensive review examines the challenges of deploying computationally expensive LLMs on resource-constrained devices and explores innovative solutions across multiple domains. We investigate the development of on-device LLMs, their efficient architectures, including parameter sharing and modular designs, as well as state-of-the-art compression techniques like quantization, pruning, and knowledge distillation. Hardware acceleration strategies and collaborative edge-cloud deployment approaches are analyzed, highlighting the intricate balance between performance and resource utilization. Case studies of on-device LLMs from major mobile manufacturers demonstrate real-world applications and potential benefits. The review also addresses critical aspects such as adaptive learning, multi-modal capabilities, and personalization. By identifying key research directions and open challenges, this paper provides a roadmap for future advancements in on-device LLMs, emphasizing the need for interdisciplinary efforts to realize the full potential of ubiquitous, intelligent computing while ensuring responsible and ethical deployment.
-
-# Key Features
-
-- Comprehensive review of on-device LLM technologies
-- Analysis of efficient architectures and compression techniques
-- Exploration of hardware acceleration strategies
-- Case studies of real-world applications
-- Discussion of future research directions and challenges
-
-# Table of Contents
-
-Here's a suggested organization of the references into sections based on the paper architecture:
-
-- [Foundations and Preliminaries](#foundations-and-preliminaries)
-  - [Evolution of On-Device LLMs](#evolution-of-on-device-llms)
-  - [LLM Architecture Foundations](#llm-architecture-foundations)
-  - [On-Device LLMs Training](#on-device-llms-training)
-  - [Limitations of Cloud-Based LLM Inference and Advantages of On-Device Inference](#limitations-of-cloud-based-llm-inference-and-advantages-of-on-device-inference)
-  - [The Performance Indicator of On-Device LLMs](#the-performance-indicator-of-on-device-llms)
-- [Efficient Architectures for On-Device LLMs](#efficient-architectures-for-on-device-llms)
-  - [Model Compression and Parameter Sharing](#model-compression-and-parameter-sharing)
-  - [Collaborative and Hierarchical Model Approaches](#collaborative-and-hierarchical-model-approaches)
-  - [Memory and Computational Efficiency](#memory-and-computational-efficiency)
-  - [Mixture-of-Experts (MoE) Architectures](#mixture-of-experts-moe-architectures)
-  - [General Efficiency and Performance Improvements](#general-efficiency-and-performance-improvements)
-- [Model Compression and Optimization Techniques for On-Device LLMs](#model-compression-and-optimization-techniques-for-on-device-llms)
-  - [Quantization](#quantization)
-  - [Pruning](#pruning)
-  - [Knowledge Distillation](#knowledge-distillation)
-  - [Low-Rank Factorization](#low-rank-factorization)
-- [Hardware Acceleration and Deployment Strategies](#hardware-acceleration-and-deployment-strategies)
-  - [Popular On-Device LLMs Framework](#popular-on-device-llms-framework)
-  - [Hardware Acceleration](#hardware-acceleration)
-- [Model Reference](#model-reference)
-- [Tutorial](#tutorial)
->>>>>>> origin
 - [Citation](#citation)
 
 ## Foundations and Preliminaries
@@ -114,7 +71,6 @@ Here's a suggested organization of the references into sections based on the pap
 
 ## Efficient Architectures for On-Device LLMs
 
-<<<<<<< HEAD
 | Model                           | Performance                                         | Computational Efficiency                                                    | Memory Requirements                                               |
 |---------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------|
 | **MobileLLM (Liu et al. 2024c)** | High accuracy, optimized for sub-billion parameter models | Embedding sharing, grouped-query attention                                  | Reduced model size due to deep and thin structures                 |
@@ -127,15 +83,6 @@ Here's a suggested organization of the references into sections based on the pap
 | **LocMoE (Li et al. 2024b)**     | Reduces training time per epoch by up to 22.24%     | Orthogonal gating weights, locality-based expert regularization             | Minimizes communication overhead with group-wise All-to-All and recompute pipeline |
 | **EdgeMoE (Yi et al. 2023)**     | Significant performance improvements on edge devices | Expert-wise bitwidth adaptation, preloading experts                         | Efficient memory management through expert-by-expert computation reordering |
 
-=======
-### Comparison of On-Device LLM Architectures
-
-The following table provides a comparative analysis of state-of-the-art on-device LLM architectures, focusing on their performance, computational efficiency, and memory requirements.
-
-<div style="text-align: center;">
-    <img src="./resources/Architectures.png" alt="Comparative Analysis of State-of-the-Art On-Device LLM Architectures" width="75%">
-</div>
->>>>>>> origin
 
 ### Model Compression and Parameter Sharing
 
