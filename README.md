@@ -154,12 +154,12 @@
 
 ## Applications
 - Text Generating For Messaging: [Gboard smart reply](https://developer.android.com/ai/aicore#gboard-smart)
-- Translation: [Llmcad](https://arxiv.org/abs/2309.04255)
+- Translation: [LLMCad](https://arxiv.org/abs/2309.04255)
 - Meeting Summarizing
 - Healthcare application: [BioMistral-7B](https://arxiv.org/abs/2402.10373), [HuatuoGPT](https://arxiv.org/abs/2311.09774)
 - Research Support
 - Companion Robot
-- Disability Support: [Octopus v3](https://arxiv.org/abs/2404.11459)
+- Disability Support: [Octopus v3](https://arxiv.org/abs/2404.11459), [Talkback with Gemini Nano](https://store.google.com/intl/en/ideas/articles/gemini-nano-google-pixel/) 
 - Autonomous Vehicles: [DriveVLM](https://arxiv.org/abs/2402.12289)
 
 # Model Reference
