@@ -29,6 +29,7 @@
   - [Hardware Acceleration and Deployment Strategies](#hardware-acceleration-and-deployment-strategies)
     - [Popular On-Device LLMs Framework](#popular-on-device-llms-framework)
     - [Hardware Acceleration](#hardware-acceleration)
+  - [Applications](#applications)
 - [Tutorial:](#tutorial)
 - [Citation](#citation)
 
@@ -150,13 +151,23 @@
 - The Breakthrough Memory Solutions for Improved Performance on LLM Inference <br> IEEE Micro 2024 [[Paper]](https://ieeexplore.ieee.org/document/10477465)
 - Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond <br> IEEE Hot Chips 2021 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9567191)
 
+## Applications
+- Text Generating For Messaging: [Gboard smart reply](https://developer.android.com/ai/aicore#gboard-smart)
+- Translation: [Llmcad](https://arxiv.org/abs/2309.04255)
+- Meeting Summarizing
+- Healthcare application: [BioMistral-7B](https://arxiv.org/abs/2402.10373), [HuatuoGPT](https://arxiv.org/abs/2311.09774)
+- Research Support
+- Companion Robot
+- Disability Support: [Octopus v3](https://arxiv.org/abs/2404.11459)
+- Autonomous Vehicles: [DriveVLM](https://arxiv.org/abs/2402.12289)
+
 # Model Reference
 
 |         Model         |      Institute      | Paper                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :-------------------: | :-----------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |      Gemini Nano      |       Google        | [Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/pdf/2312.11805.pdf)                                                                                                                                                                                                                                                                                                                          |
 | Octopus series model  |       Nexa AI       | [Octopus v2: On-device language model for super agent](https://arxiv.org/pdf/2404.01744.pdf)<br>[Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/pdf/2404.11459.pdf)<br>[Octopus v4: Graph of language models](https://arxiv.org/pdf/2404.19296.pdf)<br>[Octopus: On-device language model for function calling of software APIs](https://arxiv.org/pdf/2404.01549.pdf) |
-| OpenELM and Ferret-v2 |        Apple        | OpenELM is a significant large language model integrated within iOS to enhance application functionalities. <br>Ferret-v2 significantly improves upon its predecessor, introducing enhanced visual processing capabilities and an advanced training regimen.                                                                                                                                                          |
+| OpenELM and Ferret-v2 |        Apple        | [OpenELM is a significant large language model integrated within iOS to enhance application functionalities.](https://arxiv.org/abs/2404.14619) <br>[Ferret-v2 significantly improves upon its predecessor, introducing enhanced visual processing capabilities and an advanced training regimen.](https://arxiv.org/abs/2404.07973)                                                                                                                                                          |
 |      Phi series       |      Microsoft      | [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/pdf/2404.14219.pdf)                                                                                                                                                                                                                                                                                                 |
 |        MiniCPM        | Tsinghua University | [A GPT-4V Level Multimodal LLM on Your Phone](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5)                                                                                                                                                                                                                                                                                                                    |
 |       Gemma2-9B       |       Google        | [Gemma 2: Improving Open Language Models at a Practical Size](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)                                                                                                                                                                                                                                                                                 |
