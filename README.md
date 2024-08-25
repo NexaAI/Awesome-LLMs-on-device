@@ -1,14 +1,26 @@
-# Awesome LLMs on Device: A Comprehensive Survey
+# 🚀 Awesome LLMs on Device: A Must-Read Comprehensive Hub
 
 <div style="text-align: center;">
   <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
   <div style="font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
 </div>
 
+## 🌟 About This Hub
+Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This repository is your go-to resource for all things related to LLMs designed for on-device deployment. Whether you're a seasoned researcher, an innovative developer, or an enthusiastic learner, this comprehensive collection of cutting-edge knowledge is your gateway to understanding, leveraging, and contributing to the exciting world of on-device LLMs.
 
-# Contents
-- [Awesome LLMs on Device: A Comprehensive Survey](#awesome-llms-on-device-a-comprehensive-survey)
-- [Contents](#contents)
+## 🚀 Why This Hub is a Must-Read
+- 📊 Comprehensive overview of on-device LLM evolution with easy-to-understand visualizations
+- 🧠 In-depth analysis of groundbreaking architectures and optimization techniques
+- 📱 Curated list of state-of-the-art models and frameworks ready for on-device deployment
+- 💡 Practical examples and case studies to inspire your next project
+- 🔄 Regular updates to keep you at the forefront of rapid advancements in the field
+- 🤝 Active community of researchers and practitioners sharing insights and experiences
+
+
+  
+# 📚 What's Inside Our Hub
+- [Awesome LLMs on Device: A Comprehensive Survey](#-awesome-llms-on-device-a-must-read-comprehensive-hub)
+- [Contents](-whats-inside-our-hub)
   - [Foundations and Preliminaries](#foundations-and-preliminaries)
     - [Evolution of On-Device LLMs](#evolution-of-on-device-llms)
     - [LLM Architecture Foundations](#llm-architecture-foundations)
@@ -30,8 +42,8 @@
     - [Popular On-Device LLMs Framework](#popular-on-device-llms-framework)
     - [Hardware Acceleration](#hardware-acceleration)
   - [Applications](#applications)
-- [Tutorial:](#tutorial)
-- [Citation](#citation)
+- [Tutorials and Learning Resources](#tutorials-and-learning-resources)
+- [Citation](#-cite-our-work)
 
 ## Foundations and Preliminaries
 
@@ -162,7 +174,7 @@
 - Disability Support: [Octopus v3](https://arxiv.org/abs/2404.11459), [Talkback with Gemini Nano](https://store.google.com/intl/en/ideas/articles/gemini-nano-google-pixel/) 
 - Autonomous Vehicles: [DriveVLM](https://arxiv.org/abs/2402.12289)
 
-# Model Reference
+## Model Reference
 
 |         Model         |      Institute      | Paper                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :-------------------: | :-----------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -174,11 +186,24 @@
 |       Gemma2-9B       |       Google        | [Gemma 2: Improving Open Language Models at a Practical Size](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)                                                                                                                                                                                                                                                                                 |
 |      Qwen2-0.5B       |    Alibaba Group    | [Qwen Technical Report](https://arxiv.org/pdf/2309.16609.pdf)                                                                                                                                                                                                                                                                                                                                                         |
 
-# Tutorial:
+## Tutorials and Learning Resources
 
 - MIT: [TinyML and Efficient Deep Learning Computing](https://efficientml.ai)
 - Harvard: [Machine Learning Systems](https://mlsysbook.ai/)
 
-# Citation
+# 🤝 Join the On-Device LLM Revolution
 
-If you find this survey helpful, please consider citing our paper:
+We believe in the power of community! If you're passionate about on-device AI and want to contribute to this ever-growing knowledge hub, here's how you can get involved:
+1. Fork the repository
+2. Create a new branch for your brilliant additions
+3. Make your updates and push your changes
+4. Submit a pull request and become part of the on-device LLM movement
+   
+#  📖 Cite Our Work
+If our hub fuels your research or powers your projects, we'd be thrilled if you could cite our paper:
+
+# 📄 License
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+Don't just read about the future of AI – be part of it. Star this repo, spread the word, and let's push the boundaries of on-device LLMs together! 🚀🌟
