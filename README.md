@@ -1,9 +1,26 @@
-# 🚀 Awesome LLMs on Device: A Must-Read Comprehensive Hub
+# 🚀 Awesome LLMs on Device: A Must-Read Comprehensive Hub by Nexa AI
+
+<div align="center">
+
+[![Discord](https://dcbadge.limes.pink/api/server/thRu2HaK4D?style=flat&compact=true)](https://discord.gg/thRu2HaK4D)
+
+[On-device Model Hub](https://model-hub.nexa4ai.com/) / [Nexa SDK Documentation](https://docs.nexaai.com/)
+
+[release-url]: https://github.com/NexaAI/nexa-sdk/releases
+[Windows-image]: https://img.shields.io/badge/windows-0078D4?logo=windows
+[MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
+[Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
+
+</div>
+
+
 
 <div style="text-align: center;">
   <img src="resources/Summary_of_on-device_LLMs_evolution.jpeg" alt="Summary of on-device LLMs’ evolution" width="800">
   <div style="font-size: 10px;">Summary of On-device LLMs’ Evolution</div>
 </div>
+
+
 
 ## 🌟 About This Hub
 Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This repository is your go-to resource for all things related to LLMs designed for on-device deployment. Whether you're a seasoned researcher, an innovative developer, or an enthusiastic learner, this comprehensive collection of cutting-edge knowledge is your gateway to understanding, leveraging, and contributing to the exciting world of on-device LLMs.
