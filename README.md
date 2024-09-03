@@ -219,6 +219,7 @@ We believe in the power of community! If you're passionate about on-device AI an
 #  📖 Cite Our Work
 If our hub fuels your research or powers your projects, we'd be thrilled if you could cite our paper [here](https://www.researchgate.net/publication/383494265_On-Device_Language_Models_A_Comprehensive_Review):
 
+```bibtex
 @misc{xu2024ondevice,
   title={On-Device Language Models: A Comprehensive Review},
   author={Xu, Jiajun and Li, Zhiyuan and Chen, Wei and Wang, Qun and Gao, Xin and Cai, Qi and Ling, Ziyuan},
@@ -227,6 +228,7 @@ If our hub fuels your research or powers your projects, we'd be thrilled if you 
   note={Under review},
   url={https://www.researchgate.net/publication/383494265_On-Device_Language_Models_A_Comprehensive_Review}
 }
+```
 
 # 📄 License
 
