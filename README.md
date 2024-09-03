@@ -207,6 +207,7 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
 
 - MIT: [TinyML and Efficient Deep Learning Computing](https://efficientml.ai)
 - Harvard: [Machine Learning Systems](https://mlsysbook.ai/)
+- Deep Learning AI : [Introduction to on-device AI](https://www.deeplearning.ai/short-courses/introduction-to-on-device-ai/)
 
 # 🤝 Join the On-Device LLM Revolution
 
