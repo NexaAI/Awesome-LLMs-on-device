@@ -216,6 +216,9 @@ We believe in the power of community! If you're passionate about on-device AI an
 2. Create a new branch for your brilliant additions
 3. Make your updates and push your changes
 4. Submit a pull request and become part of the on-device LLM movement
+
+# ⭐ Star History ⭐
+![Star History](./star.jpeg)
    
 #  📖 Cite Our Work
 If our hub fuels your research or powers your projects, we'd be thrilled if you could cite our paper [here](https://arxiv.org/abs/2409.00088):
