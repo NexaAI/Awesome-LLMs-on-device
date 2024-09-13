@@ -218,17 +218,14 @@ We believe in the power of community! If you're passionate about on-device AI an
 4. Submit a pull request and become part of the on-device LLM movement
    
 #  📖 Cite Our Work
-If our hub fuels your research or powers your projects, we'd be thrilled if you could cite our paper [here](https://www.researchgate.net/publication/383494265_On-Device_Language_Models_A_Comprehensive_Review):
+If our hub fuels your research or powers your projects, we'd be thrilled if you could cite our paper [here](https://arxiv.org/abs/2409.00088):
 
 ```bibtex
-@misc{xu2024ondevicelanguagemodelscomprehensive,
-      title={On-Device Language Models: A Comprehensive Review}, 
-      author={Jiajun Xu and Zhiyuan Li and Wei Chen and Qun Wang and Xin Gao and Qi Cai and Ziyuan Ling},
-      year={2024},
-      eprint={2409.00088},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.00088}, 
+@article{xu2024device,
+  title={On-Device Language Models: A Comprehensive Review},
+  author={Xu, Jiajun and Li, Zhiyuan and Chen, Wei and Wang, Qun and Gao, Xin and Cai, Qi and Ling, Ziyuan},
+  journal={arXiv preprint arXiv:2409.00088},
+  year={2024}
 }
 ```
 
