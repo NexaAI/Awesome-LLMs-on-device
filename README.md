@@ -113,6 +113,7 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
 | **[LocMoE](https://arxiv.org/abs/2401.13920)**     | Reduces training time per epoch by up to 22.24%     | Orthogonal gating weights, locality-based expert regularization             | Minimizes communication overhead with group-wise All-to-All and recompute pipeline |
 | **[EdgeMoE](https://arxiv.org/abs/2308.14352)**     | Significant performance improvements on edge devices | Expert-wise bitwidth adaptation, preloading experts                         | Efficient memory management through expert-by-expert computation reordering |
 |**[JetMoE](https://arxiv.org/abs/2404.07413)**| Outperforms Llama27B and 13B-Chat with fewer parameters | Reduces inference computation by 70% using sparse activation | 8B total parameters, only 2B activated per input token |
+|**[Pangu-$`\pi`$ Pro](https://arxiv.org/abs/2402.02791)**| Neural architecture, parameter initialization, and optimization strategy for billion-level parameter models | Embedding sharing, tokenizer compression | Reduced model size via architecture tweaking |
 
 
 ### Model Compression and Parameter Sharing
