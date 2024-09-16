@@ -218,7 +218,8 @@ We believe in the power of community! If you're passionate about on-device AI an
 4. Submit a pull request and become part of the on-device LLM movement
 
 # ⭐ Star History ⭐
-![Star History](./star.jpeg)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=NexaAI/Awesome-LLMs-on-device&type=Timeline)](https://star-history.com/#NexaAI/Awesome-LLMs-on-device&Timeline)
    
 #  📖 Cite Our Work
 If our hub fuels your research or powers your projects, we'd be thrilled if you could cite our paper [here](https://arxiv.org/abs/2409.00088):
