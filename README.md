@@ -98,6 +98,7 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
 - PowerInfer-2: Fast Large Language Model Inference on a Smartphone <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2406.06282) [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
 - llama.cpp: Lightweight library for Approximate Nearest Neighbors and Maximum Inner Product Search <br> 2023 [[Github]](https://github.com/ggerganov/llama.cpp)
 - Powerinfer: Fast large language model serving with a consumer-grade gpu <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2312.12456) [[Github]](https://github.com/SJTU-IPADS/PowerInfer)
+- mllm: Fast and lightweight multimodal LLM inference engine for mobile and edge devices <br> 2023 [[Github]](https://github.com/UbiquitousLearning/mllm)
 
 ## Efficient Architectures for On-Device LLMs
 
