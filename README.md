@@ -49,6 +49,7 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
     - [Collaborative and Hierarchical Model Approaches](#collaborative-and-hierarchical-model-approaches)
     - [Memory and Computational Efficiency](#memory-and-computational-efficiency)
     - [Mixture-of-Experts (MoE) Architectures](#mixture-of-experts-moe-architectures)
+    - [Hybrid Architectures](#hybrid-architectures)
     - [General Efficiency and Performance Improvements](#general-efficiency-and-performance-improvements)
   - [Model Compression and Optimization Techniques for On-Device LLMs](#model-compression-and-optimization-techniques-for-on-device-llms)
     - [Quantization](#quantization)
@@ -116,6 +117,7 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
 | **[EdgeMoE](https://arxiv.org/abs/2308.14352)**     | Significant performance improvements on edge devices | Expert-wise bitwidth adaptation, preloading experts                         | Efficient memory management through expert-by-expert computation reordering |
 |**[JetMoE](https://arxiv.org/abs/2404.07413)**| Outperforms Llama27B and 13B-Chat with fewer parameters | Reduces inference computation by 70% using sparse activation | 8B total parameters, only 2B activated per input token |
 |**[Pangu-$`\pi`$ Pro](https://arxiv.org/abs/2402.02791)**| Neural architecture, parameter initialization, and optimization strategy for billion-level parameter models | Embedding sharing, tokenizer compression | Reduced model size via architecture tweaking |
+|**[Zamba2](https://www.zyphra.com/post/zamba2-small)**| 2x faster time-to-first-token, a 27% reduction in memory overhead, and a 1.29x lower generation latency compared to Phi3-3.8B. | Hybrid Mamba2/Attention architecture and shared transformer block | 2.7B parameters, fewer KV-states due to reduced attention |
 
 
 ### Model Compression and Parameter Sharing
@@ -138,6 +140,10 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
 - LLM as a system service on mobile devices <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2403.11805)
 - Locmoe: A low-overhead moe for large language model training <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2401.13920)
 - Edgemoe: Fast on-device inference of moe-based large language models <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2308.14352)
+
+### Hybrid Architectures
+
+- Zamba2: Hybrid Mamba2 and attention models for on-device <br> 2024 [[Zamba2-2.7B]](https://www.zyphra.com/post/zamba2-small) [[Zamba2-1.2B]](https://www.zyphra.com/post/zamba2-mini)
 
 ### General Efficiency and Performance Improvements
 
