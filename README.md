@@ -72,6 +72,8 @@ Welcome to the ultimate hub for on-device Large Language Models (LLMs)! This rep
 - Octopus series papers <br> arXiv 2024 [[Octopus]](https://arxiv.org/abs/2404.01549) [[Octopus v2]](https://arxiv.org/abs/2404.01744) [[Octopus v3]](https://arxiv.org/abs/2404.11459) [[Octopus v4]](https://arxiv.org/abs/2404.19296) [[Github]](https://github.com/NexaAI)
 - The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits <br> arXiv 2024 [[Paper]](https://arxiv.org/abs/2402.17764)
 - AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration <br> arXiv 2023 [[Paper]](https://arxiv.org/abs/2306.00978) [[Github]](https://github.com/mit-han-lab/llm-awq)
+- Small Language Models: Survey, Measurements, and Insights <br> arXiv 2024 [[Paper]](https://arxiv.org/pdf/2409.15790)
+
 
 ### LLM Architecture Foundations
 
